@@ -13,10 +13,6 @@ body {
     align-items: center;
 }
 
-.reset-btn {
-    height: 10%;
-    width: auto;
-}
 #container {
     display: grid;
     grid-template-columns: repeat(var(--side), 1fr);
