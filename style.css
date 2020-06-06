@@ -1,0 +1,33 @@
+:root {
+    --side: 16;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reset-btn {
+    height: 10%;
+    width: auto;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(var(--side), 1fr);
+    grid-template-rows: repeat(var(--side), 1fr);
+    width: 760px;
+    height: 760px;
+    border: 1px solid black;
+    justify-items: center;
+    align-items: center;
+}
+
+/* .container > div:hover {
+    background-color: cadetblue;
+} */
