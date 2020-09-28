@@ -17,8 +17,8 @@ body {
     display: grid;
     grid-template-columns: repeat(var(--side), 1fr);
     grid-template-rows: repeat(var(--side), 1fr);
-    width: 760px;
-    height: 760px;
+    width: 90vmin;
+    height: 90vmin;
     border: 1px solid black;
     justify-items: center;
     align-items: center;
